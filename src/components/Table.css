@@ -1,0 +1,16 @@
+.header {
+  background-color: lightgray;
+  border: 1px solid black;
+  padding-left: 0.5rem;
+}
+
+.cell {
+  border: 1px solid black;
+  padding-left: 0.5rem;
+}
+
+.grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
